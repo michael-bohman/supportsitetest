@@ -132,21 +132,23 @@ TransectStyleComplexItem": {
         },
 ```
 
-{% swagger method="get" path="" baseUrl="" summary="This Does the API" %}
-{% swagger-description %}
+## This Does the API
+
+<mark style="color:blue;">`GET`</mark>&#x20;
+
 API Stuff
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="6606" type="findMyShit" required="true" %}
-I find stuff
+#### Request Body
 
+| Name                                   | Type       | Description                |
+| -------------------------------------- | ---------- | -------------------------- |
+| 6606<mark style="color:red;">\*</mark> | findMyShit | <p>I find stuff</p><p></p> |
 
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="404: Not Found Not found" %}
 
-{% swagger-response status="404: Not Found" description="Not found" %}
-
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ***
 
